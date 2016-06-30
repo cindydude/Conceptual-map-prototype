@@ -1,0 +1,67 @@
+
+#debug1 {
+  display:block;
+}
+
+.js-mindmap-active h1 {
+   display:none;
+}
+
+.js-mindmap-active section h1 {
+   display:block;
+}
+
+.js-mindmap-active .node {
+  position:absolute;
+  top:10;
+  left:0;
+  font: 15px Arial, sans-serif;
+  font-size:0.7em;
+  color:#003258;
+  opacity:1.0;
+  cursor:pointer;
+  cursor:hand;
+  z-index:100;
+  list-style:none;
+  color:#292f36;
+  display: block;
+}
+
+.js-mindmap-active a.node {
+  font: Arial, sans-serif;
+  font-size:1em;
+  text-align:center;
+  text-decoration:none;
+  line-height:170%;
+}
+
+
+.js-mindmap-active .node.active{
+  font-size:1.0em;
+  background-color:#292f36;
+  color:#fff;
+}
+
+.js-mindmap-active .node.activeparent  a{
+  color:#001228;
+}
+.js-mindmap-active img.line {
+  position:absolute;
+  width:200px;
+  height:133px;
+  top:0;
+  left:0;
+  display:block;
+  z-index:0;
+}
+.ui-draggable {
+  position:absolute;
+}
+.js-mindmap-active .node .node-action {
+  position:absolute;
+  right:-2em;
+  bottom:-1px;
+  text-align:center;
+  vertical-align:middle;
+}
+

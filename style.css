@@ -1,0 +1,28 @@
+html, body {
+  background:#3c444e;
+}
+.js-mindmap-active a.node {
+  background:white;
+  border: 3px solid #009aa6;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-bottom-radius: 50%;
+  padding:25px 10px;
+}  
+
+
+.js-mindmap-active .node{
+  width:95px;
+  height:65px;
+}
+
+
+.js-mindmap-active a.node.active {
+  padding:25px 10px !important;
+  border-width:5px !important;
+}
+.js-mindmap-active a.node.activeparent {
+  padding:25px 10px !important;
+  border-width:5px !important;
+  background:#7e99a3;
+}
